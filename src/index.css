@@ -1,13 +1,99 @@
+/*These are global styles for out entire application*/
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  padding: 10px;
+  background-color: #2C5DB9;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+  z-index:100;
+}
+
+.map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/*vw and vh stand for viewport heights and viewport widths, respectively*/
+/*position component relevant to its normal position*/
+
+.location-icon {
+  font-size: 2rem;
+  color: red;
+}
+
+/*Atrributes for the loader!*/
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  /*we want it to be on top of each other essentially*/
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader img {
+  width: 400px;
+}
+
+.loader h1 {
+  margin-top: -100px;
+}
+
+.location-info {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 28px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+}
+
+.info-heading {
+  margin: 0; /* Remove margin to place the heading at the top */
+}
+
+.info-value {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+
+.location-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.location-info ul {
+  
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info {
+  
+  padding: 5px 0;
 }

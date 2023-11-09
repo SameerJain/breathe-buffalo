@@ -1,0 +1,8 @@
+Google API key: AIzaSyCWz4WRu4JI39T9MjT8xvJISAeFAvp-k3U
+
+ By wrapping them in curly braces, we can include their values in the JSX code and have them rendered as part of the map component
+
+
+ import GoogleMapReact from 'google-map-react
+
+ 

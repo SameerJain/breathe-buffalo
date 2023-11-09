@@ -1,0 +1,25 @@
+1) install google react package, as well as image tool from iconify
+2) change title index html
+3) delete app.css and other files as we dont need them 
+4) remove the importing from app.js
+5) fix up App function 
+6) create a components folder and make map.js
+7) use es7 snippit for react arrow function component
+8) import google maps from the react package
+9) take in some props, center and zoom 
+10) give the div a classname of map     
+11) imbed the google map react component 
+12) give that react component the URL keys
+13) put in your google API key 
+14) bring in the props for the map component 
+15) set the default props (its wildfire so we are in the center of the west coast)
+16) set the zoom level to 6(?)
+17) bring in the map component from map.js
+18) Put in the map component into the app function
+19) apply an appropriate with and height to our css
+20) remove boilerplate and set font family to aerial
+21) set the positioning of the map
+22) setup new component for the location marker 
+23) bring in icon logo from iconify 
+24) bring in 3 props for locationMarker
+
