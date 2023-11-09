@@ -1,0 +1,26 @@
+This file contains notes, terminalogy and new things I learned for this project and for future reference 
+
+
+Webpack-This is an openSource Javascript website bundler. Made primarily for javascript, but it can transform front end assets such as HTML,CSS and images if the corresponding loaders are included 
+Basically it takes all your code and turns it into one giant js file for effiecny so our code can run
+
+Babel-open source js transcompiler that turns new js code into older versions so everything stays compatible 
+
+component- pieces of code that can be reused over and over again, must return a jsx element to be a component 
+
+    example of a component:
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+    
+    <React.StrictMode> 
+        {/*Strictmode is for better warnings than we would typically would get but it is not neccessary*/}
+        {/*while in strictmode, we create out app*/}
+        {/*This is an example of a component*/}
+        <App /> 
+    </React.StrictMode>
+    );
+
+    not an example of a component:
+    function foo(){
+        return "hi"; // does not return a jsx element
+    }

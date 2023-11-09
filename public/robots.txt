@@ -1,0 +1,4 @@
+#(COMMENT)this file is involving when bots might come along to your website 
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:

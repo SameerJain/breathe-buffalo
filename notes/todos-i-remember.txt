@@ -1,0 +1,9 @@
+TODO:
+bring in the loader
+Change the loading image to not have any company 
+find a way to use api 
+understanding effective alt tags and how they should be used 
+understand display flex 
+
+
+add animation for logos
