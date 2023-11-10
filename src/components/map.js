@@ -10,7 +10,7 @@ const Map = ({ eventData, center, zoom }) => {
     let _googleMap = null
     const [locationInfo, setLocationInfo] = useState(null)
 
-    const [heatMapData, setHeatMapData] = useState({
+    const [heatMapData] = useState({
         positions: [
             {lat: 43, lng: -78.79},
         ],
